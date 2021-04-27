@@ -1,7 +1,7 @@
 #### Uses the pre-configured OpenShift cluster
 oc login
 #### Allows you to log in to any OpenShift cluster
-oc login <cluster address>
+oc login cluster address
 #### Log out
 oc logout
 #### See current project
