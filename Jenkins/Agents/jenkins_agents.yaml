@@ -1,0 +1,11 @@
+podTemplate(label: "jenkins_slave",
+  cloud: "openshift",
+  inheritFrom: "base",
+  podRetention: onFailure(), 
+  containers: [
+    ...
+  ]) {
+  node("jenkins_slave") {
+    ...
+  }
+}
